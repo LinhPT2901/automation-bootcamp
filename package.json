@@ -1,0 +1,27 @@
+{
+  "name": "automation-bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "PWDEBUG=1 playwright test",
+    "test:report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinhPT2901/automation-bootcamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LinhPT2901/automation-bootcamp/issues"
+  },
+  "homepage": "https://github.com/LinhPT2901/automation-bootcamp#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "dotenv": "^17.2.1"
+  }
+}
