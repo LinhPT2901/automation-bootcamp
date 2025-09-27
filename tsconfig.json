@@ -1,11 +1,16 @@
 {
-    "compilerOptions": {
-      "target": "ES2021",
-      "module": "CommonJS",
-      "moduleResolution": "Node",
-      "types": ["@playwright/test"],
-      "strict": true,
-      "esModuleInterop": true
-    },
-    "include": ["tests", "src", "playwright.config.ts"]
-  }
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ESNext", "DOM"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "types": ["@playwright/test", "node"],
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["tests", "src", "playwright.config.ts", "types"]
+}
+
+  
