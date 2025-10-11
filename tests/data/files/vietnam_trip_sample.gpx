@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="ChatGPT-GPX-Tool"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1
+                         http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <wpt lat="21.028511" lon="105.804817">
+    <name>Hà Nội</name>
+  </wpt>
+  <wpt lat="16.463713" lon="107.590866">
+    <name>Huế</name>
+  </wpt>
+  <wpt lat="10.762622" lon="106.660172">
+    <name>TP. Hồ Chí Minh</name>
+  </wpt>
+
+  <trk>
+    <name>Hành trình Bắc - Nam</name>
+    <trkseg>
+      <trkpt lat="21.028511" lon="105.804817">
+        <ele>15</ele>
+        <time>2025-06-02T08:00:00Z</time>
+      </trkpt>
+      <trkpt lat="16.463713" lon="107.590866">
+        <ele>10</ele>
+        <time>2025-06-02T12:00:00Z</time>
+      </trkpt>
+      <trkpt lat="10.762622" lon="106.660172">
+        <ele>8</ele>
+        <time>2025-06-02T16:00:00Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+
+</gpx>
